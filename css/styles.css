@@ -243,7 +243,7 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #14caf0;
   text-decoration: underline;
 }
 a:hover {
@@ -11543,7 +11543,7 @@ header.masthead h1, header.masthead .h1 {
   font-size: 4rem;
   color: #343434;
   margin-bottom: 2rem; 
-  background: -webkit-linear-gradient(40deg,#ff8ae2, #00ffff);
+  background: -webkit-linear-gradient(72deg,#ff8ae2, #00ffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
@@ -11571,7 +11571,7 @@ header.masthead h1, header.masthead .h1 {
 @media (max-width: 768px) {
   .learn-h2 {
     font-size: 3.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem;    
   }
   .mb-4 {
     font-size: 1.5rem;
@@ -11585,6 +11585,12 @@ header.masthead h1, header.masthead .h1 {
 .learn-h2 {
     font-size: 4.5rem;
     margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .tutorial-step-desc {
+    margin: 2.5rem 0 1.5rem 0;
   }
 }
 
