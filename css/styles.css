@@ -310,8 +310,9 @@ svg {
 }
 
 table {
-  caption-side: bottom;
-  border-collapse: collapse;
+  caption-side: bottom;  
+  border-collapse: separate;
+  border-spacing: 0 1em;
 }
 
 caption {
@@ -11468,13 +11469,17 @@ header.masthead {
 }
 
 .toc {
-    color: #adbdcc !important;    
-    padding: 5px; 
+    color: #adbdcc !important;        
     text-decoration: none;
 }
+
+.tl {
+  padding-right: 5px; 
+}
+
 .toc:hover {
     color: #21cdf7 !important;    
-    padding: 5px; 
+    /* padding: 5px;  */
     text-decoration: blink;
     cursor: pointer;
 }
@@ -11483,8 +11488,7 @@ header.masthead {
   margin-bottom: 1rem;
   font-size: 1.3rem;
   text-align: left;
-  vertical-align: top;
-  line-height: 3rem;
+  vertical-align: top;  
 }
 .tutorial-link {
   color: #21cdf7;
