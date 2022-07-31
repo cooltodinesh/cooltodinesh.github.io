@@ -254,8 +254,7 @@ function callbackRequestSubmit(action_name) {
 }
        
 
-$('#enquiry_form').submit(function(e){            
-    e.preventDefault();
+function submitEnquiry(){                
     
     form_fields = $('#enquiry_form').serializeArray();
     data_to_send = {};
@@ -286,7 +285,7 @@ $('#enquiry_form').submit(function(e){
             alert('please try again later') 
         }
     });
-});
+};
 
 function rand(length, current) {
       current = current ? current : '';
