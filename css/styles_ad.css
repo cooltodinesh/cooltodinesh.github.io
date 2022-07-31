@@ -4552,6 +4552,7 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   height: 100%;
+  width: 100%;
 }
 .card > hr {
   margin-right: 0;
