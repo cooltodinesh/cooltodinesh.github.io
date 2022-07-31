@@ -13,80 +13,80 @@ getPromotionId("m").then(function (p) {
 
             // temp test data
             response = {
-  "branding_info": {
-     "text-primary": "color: #5c286e !important",
-     "gradient-container": "background: linear-gradient(to bottom, antiquewhite, #79a2a078); background-attachment: fixed;",         
-     "btn-primary": "background-color: #841d54; border-color: #841d54;",
-     "text-muted": ""
-  },
-  "advertiser": {
-    "id": 2,
-    "name": "Myntra",
-    "email": "mrinaltrivs27@hotmail.com",
-    "mobile_number": "7760743377",
-    "address": null,
-    "category": "real_estate",
-    "description": "Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal. The brand is making a conscious effort to bring the power of fashion to shoppers with an array of the latest and trendiest products available in the country.",
-    "logo": "https://imgeng.jagran.com/images/2021/jan/Myntra-805x530-1-700x4611611985286383.jpg",
-    "website": "https://www.myntra.com"
-  },
-  "ad_campaign": {
-    "id": 1,
-    "title": "✯ Clearance Sale 2022 - Myntra ✯",
-    "description": "Gone are the days when one had to wait all year to experience a sale. Budget-friendly online shopping in India has been made quick and easy with the introduction of coupon codes. Myntra too has chosen to offer first-time shoppers and dedicated buyers a set of exclusive coupon codes to help them save a significant amount on their shopping purchases. Get flat 80% off on branded apparels, footwear and accessories for men, women online at Myntra. Easy returns and exchanges COD available.",
-    "category": "other",
-    "contact_addresses": "102, B-Wing Business square, Chakala andheri\nMumbai, Maharashtra\nIndia, 400095",
-    "contact_phones": "7760963311",
-    "starts_on": "2022-07-26T23:04:35.506+05:30",
-    "ends_on": "2022-08-31T22:39:00.000+05:30",
-    "eqnuire_now_flag": null,
-    "eqnuire_now_info": [
-      {
-        "label": "Name",
-        "value": "name",
-        "is_multiline": false
-      },
-      {
-        "label": "Mobile No.",
-        "value": "mobile_number",
-        "is_multiline": false
-      },
-      {
-        "label": "Address",
-        "value": "address",
-        "is_multiline": true
-      }
-    ],
-    "is_location_restricted": false,
-    "location_info": [],
-    "radial_distance": null,
-    "redirection_flag": true,
-    "redirection_info": {
-      "link": "https://adcast.me/",
-      "caption": "REGISTER NOW"
-    },
-    "slug": "adcast-launch-07-26.600",
-    "status": "active",
-    "tags": [
-      "travel",
-      "relax",
-      "outing"
-    ],
-    "terms_and_conditions": '\n<h2 class="mb-4 text-primary" style="color: #5c286e !important">Terms and Conditions</h2>\n<span class="text-muted" style="">\n<p class="mb-0" style="margin-bottom: 20px">What is the Offer?</p>\n<p class="mb-0" style="margin-bottom: 20px">1. The following is the Offer subject to the Terms and Conditions elaborated hereunder.</p>\n                                <p class="mb-0" style="margin-bottom: 20px">2. Top 1 spender gets MacBook Air 2020 (the minimum realized shopping value of Rs 80,000/- from multiple orders is required to be eligible for the Prize of MacBook Air 2020)</p>\n</span>\n',
-    "advertiser_id": 2,
-    "anchor_image": "https://assets.myntassets.com/assets/images/retaillabs/2021/9/24/5cad4760-8baa-49b2-ba61-f5e726eed5a31632491715639-HP-Banner-thin.jpg",
-    "banner_image": null,
-    "call_me_back_flag": true,
-    "created_at": "2022-07-26T22:44:16.586+05:30",
-    "updated_at": "2022-07-31T00:51:55.477+05:30"
-  },
-  "ad_platform": {
-    "id": 1,
-    "platform_link": "frCfycVq",
-    "platform_type": "ad_cast"
-  }
-}
-// todo enable
+            "branding_info": {
+                "text-primary": "color: #5c286e !important",
+                "gradient-container": "background: linear-gradient(to bottom, antiquewhite, #79a2a078); background-attachment: fixed;",         
+                "btn-primary": "background-color: #841d54; border-color: #841d54;",
+                "text-muted": ""
+            },
+            "advertiser": {
+                "id": 2,
+                "name": "Myntra",
+                "email": "mrinaltrivs27@hotmail.com",
+                "mobile_number": "7760743377",
+                "address": null,
+                "category": "real_estate",
+                "description": "Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products, Myntra aims at providing a hassle free and enjoyable shopping experience to shoppers across the country with the widest range of brands and products on its portal. The brand is making a conscious effort to bring the power of fashion to shoppers with an array of the latest and trendiest products available in the country.",
+                "logo": "https://imgeng.jagran.com/images/2021/jan/Myntra-805x530-1-700x4611611985286383.jpg",
+                "website": "https://www.myntra.com"
+            },
+            "ad_campaign": {
+                "id": 1,
+                "title": "✯ Clearance Sale 2022 - Myntra ✯",
+                "description": "Gone are the days when one had to wait all year to experience a sale. Budget-friendly online shopping in India has been made quick and easy with the introduction of coupon codes. Myntra too has chosen to offer first-time shoppers and dedicated buyers a set of exclusive coupon codes to help them save a significant amount on their shopping purchases. Get flat 80% off on branded apparels, footwear and accessories for men, women online at Myntra. Easy returns and exchanges COD available.",
+                "category": "other",
+                "contact_addresses": "102, B-Wing Business square, Chakala andheri\nMumbai, Maharashtra\nIndia, 400095",
+                "contact_phones": "7760963311",
+                "starts_on": "2022-07-26T23:04:35.506+05:30",
+                "ends_on": "2022-08-31T22:39:00.000+05:30",
+                "eqnuire_now_flag": null,
+                "eqnuire_now_info": [
+                {
+                    "label": "Name",
+                    "value": "name",
+                    "is_multiline": false
+                },
+                {
+                    "label": "Mobile No.",
+                    "value": "mobile_number",
+                    "is_multiline": false
+                },
+                {
+                    "label": "Address",
+                    "value": "address",
+                    "is_multiline": true
+                }
+                ],
+                "is_location_restricted": false,
+                "location_info": [],
+                "radial_distance": null,
+                "redirection_flag": true,
+                "redirection_info": {
+                "link": "https://adcast.me/",
+                "caption": "REGISTER NOW"
+                },
+                "slug": "adcast-launch-07-26.600",
+                "status": "active",
+                "tags": [
+                "travel",
+                "relax",
+                "outing"
+                ],
+                "terms_and_conditions": '\n<h2 class="mb-4 text-primary" style="color: #5c286e !important">Terms and Conditions</h2>\n<span class="text-muted" style="">\n<p class="mb-0" style="margin-bottom: 20px">What is the Offer?</p>\n<p class="mb-0" style="margin-bottom: 20px">1. The following is the Offer subject to the Terms and Conditions elaborated hereunder.</p>\n                                <p class="mb-0" style="margin-bottom: 20px">2. Top 1 spender gets MacBook Air 2020 (the minimum realized shopping value of Rs 80,000/- from multiple orders is required to be eligible for the Prize of MacBook Air 2020)</p>\n</span>\n',
+                "advertiser_id": 2,
+                "anchor_image": "https://assets.myntassets.com/assets/images/retaillabs/2021/9/24/5cad4760-8baa-49b2-ba61-f5e726eed5a31632491715639-HP-Banner-thin.jpg",
+                "banner_image": null,
+                "call_me_back_flag": true,
+                "created_at": "2022-07-26T22:44:16.586+05:30",
+                "updated_at": "2022-07-31T00:51:55.477+05:30"
+            },
+            "ad_platform": {
+                "id": 1,
+                "platform_link": "frCfycVq",
+                "platform_type": "ad_cast"
+            }
+            }
+            // todo enable
             // r1();
             setPage();
         },
@@ -125,6 +125,14 @@ function getParameterByName(name, url = window.location.href) {
 
 
 function setPage() {
+    if(typeof response["branding_info"] == 'undefined') {
+        response["branding_info"] = {
+            "text-primary": "color: #5c286e !important",
+            "gradient-container": "background: linear-gradient(to bottom, antiquewhite, #79a2a078); background-attachment: fixed;",         
+            "btn-primary": "background-color: #841d54; border-color: #841d54;",
+            "text-muted": ""
+        }
+    }
     // set theme
     $(".text-primary").attr("style", response['branding_info']["text-primary"]);
     $(".gradient-container").attr("style", response['branding_info']["gradient-container"]);
