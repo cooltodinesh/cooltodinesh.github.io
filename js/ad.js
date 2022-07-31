@@ -11,7 +11,7 @@ getPromotionId("m").then(function (p) {
             // Whatever you want to do after the form is successfully submitted
             response = data;
 
-            // temp test data
+            // demo test data
             response = {
             "branding_info": {
                 "text-primary": "color: #5c286e !important",
@@ -91,7 +91,8 @@ getPromotionId("m").then(function (p) {
             setPage();
         },
         error: function () { 
-            alert('please try again later') 
+            $("#no_such_ad_section").show();
+            // alert('please try again later');
         }
     }); 
 });
