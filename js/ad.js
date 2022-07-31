@@ -2,7 +2,7 @@ var response = {};
 
 getPromotionId("m").then(function (p) {
    $.ajax({
-        url: 'https://api.adcast.me/api/v1/end_users/campaign/'+getParameterByName('pid'),
+        url: 'https://api.adcast.me/api/v1/end_users/campaign/'+getParameterByName('pid'),        
         type: 'get',
         headers: {
             sc: p
@@ -12,7 +12,7 @@ getPromotionId("m").then(function (p) {
             response = data;
 
             // demo test data
-            response2 = {
+            response = {
             "branding_info": {
                 "text-primary": "color: #5c286e !important",
                 "gradient-container": "background: linear-gradient(to bottom, antiquewhite, #79a2a078); background-attachment: fixed;",         
@@ -145,13 +145,19 @@ function setPage() {
     $('#ad_description').text(response['ad_campaign']['description']);
         
     if(typeof response['ad_campaign']['redirection_info'] != 'undefined') {
-        $("#register_now_btn").text(response['ad_campaign']['redirection_info']['caption']);
-        // todo enable this if you want to redirect without info
-        // $("a#register_now_btn").attr("href",response['ad_campaign']['redirection_info']['link']);
+        // todo redirect directly if ad_type is passive
+        if (response['ad_campaign']['ad_campaign_category_info']['category'] == 'passive') {
+            $('#register_now_btn').on('click', function(){
+                $("a#register_now_btn").attr("href",response['ad_campaign']['redirection_info']['link']);
+            });
+        } else {
+            $("#register_now_btn").text(response['ad_campaign']['redirection_info']['caption']);
+        }
+                
         $("a#register_now_btn").show();
     }
 
-    if(typeof response['ad_campaign']['terms_and_conditions'] != 'undefined') {
+    if(typeof response['ad_campaign']['terms_and_conditions'] != 'undefined' && response['ad_campaign']['terms_and_conditions'] != null) {
         $("#generic_section").html(response['ad_campaign']['terms_and_conditions']);
         $('#tnc_section').show();
     }  
@@ -195,6 +201,7 @@ function setPage() {
 
     // todo complete this
     if(response["ad_campaign"]['call_me_back_flag'] || showEnquiryForm) {                
+        debugger;
         $("#get_in_touch_section").show();
         // todo set the forms col width based on which ones are to be shown
     }
