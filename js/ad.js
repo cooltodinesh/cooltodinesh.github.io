@@ -12,7 +12,7 @@ getPromotionId("m").then(function (p) {
             response = data;
 
             // demo test data
-            response = {
+            response2 = {
             "branding_info": {
                 "text-primary": "color: #5c286e !important",
                 "gradient-container": "background: linear-gradient(to bottom, antiquewhite, #79a2a078); background-attachment: fixed;",         
