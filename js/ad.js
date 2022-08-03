@@ -146,7 +146,7 @@ function setPage() {
         
     if(typeof response['ad_campaign']['redirection_info'] != 'undefined') {
         // todo redirect directly if ad_type is passive
-        if (response['ad_campaign']['ad_campaign_category_info']['category'] == 'passive') {
+        if (typeof response['ad_campaign']['ad_campaign_category_info'] != undefined && response['ad_campaign']['ad_campaign_category_info']['category'] == 'passive') {
             $('#register_now_btn').on('click', function(){
                 $("a#register_now_btn").attr("href",response['ad_campaign']['redirection_info']['link']);
             });
