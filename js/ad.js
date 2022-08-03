@@ -12,7 +12,7 @@ getPromotionId("m").then(function (p) {
             response = data;
 
             // demo test data
-            response2 = {
+            response = {
             "branding_info": {
                 "text-primary": "color: #5c286e !important",
                 "gradient-container": "background: linear-gradient(to bottom, antiquewhite, #79a2a078); background-attachment: fixed;",         
@@ -146,7 +146,7 @@ function setPage() {
         
     if(typeof response['ad_campaign']['redirection_info'] != 'undefined') {
         // todo redirect directly if ad_type is passive
-        if (typeof response['ad_campaign']['ad_campaign_category_info'] != undefined && response['ad_campaign']['ad_campaign_category_info']['category'] == 'passive') {
+        if (typeof response['ad_campaign']['ad_campaign_category_info'] != 'undefined' && response['ad_campaign']['ad_campaign_category_info']['category'] == 'passive') {
             $('#register_now_btn').on('click', function(){
                 $("a#register_now_btn").attr("href",response['ad_campaign']['redirection_info']['link']);
             });
